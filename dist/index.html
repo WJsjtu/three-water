@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Three pool water</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+<div id="container">
+    <canvas id="canvas" width="800" height="600"></canvas>
+</div>
+<script>
+	window.onload = function () {
+		const canvas = document.getElementById('canvas');
+		(new App(canvas, 128, 128, 60)).render();
+	};
+
+	const originCreate = document.createElement;
+
+	document.createElement = function (tagName) {
+		console.log(tagName);
+		return originCreate.call(document, tagName);
+	};
+</script>
+</body>
+</html>

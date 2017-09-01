@@ -1,0 +1,39 @@
+{
+  "name": "three-water",
+  "version": "0.0.1",
+  "description": "three-water",
+  "scripts": {
+    "build": "webpack"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-class-properties": "^6.22.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+    "babel-plugin-transform-es3-property-literals": "^6.22.0",
+    "babel-plugin-transform-es5-property-mutators": "^6.22.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "raw-loader": "^0.5.1",
+    "three": "^0.87.1",
+    "webpack": "^2.2.0"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "王健（Jason Wang）",
+    "email": "jasonwang0421@gmail.com",
+    "url": "http://github.com/wjsjtu"
+  },
+  "homepage": "http://wjsjtu.github.io/",
+  "keywords": [
+    "three",
+    "water"
+  ]
+}
