@@ -44,7 +44,7 @@ class App {
 		}
 
 		//
-		this.lightDiection = (new THREE.Vector3(-0.6569324541223192, -0.48372520523599466, -0.5839062558994448)).normalize();
+		this.lightDiection = (new THREE.Vector3(0.6569324541223192, -0.48372520523599466, -0.5839062558994448)).normalize();
 
 		// real scene
 		this.scene = new THREE.Scene();
